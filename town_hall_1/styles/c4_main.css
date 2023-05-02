@@ -4,9 +4,31 @@ body {
     font-size: 100%;
 }
 
+a:hover, a:focus {font-style: italic;}
+
+:root { --color-1: #4d0080; }
+
+main h2{ color: var(--color-1); }
+
 /* the styles for the header */
 header img {
 	float: left;
+}
+
+header h2{
+	font-size: 170%;
+	color: #800000;
+	text-indent: 30px;
+}
+
+header h3{
+	font-size: 130%;
+	font-style: italic;
+	text-indent: 30px;
+}
+
+.shadow{
+	text-shadow: 2px 2px #800000;
 }
 
 /* the styles for the main content */
@@ -17,7 +39,7 @@ main h1 {
 	font-size: 150%;
 }
 main h2 {
-	color: var(--global-color-1);
+	/*color: var(--global-color-1);*/
 	font-size: 130%;
 }
 main h3 {
@@ -25,3 +47,7 @@ main h3 {
 }
 
 /* the styles for the footer */
+footer p{
+	text-align: center;
+	
+}
