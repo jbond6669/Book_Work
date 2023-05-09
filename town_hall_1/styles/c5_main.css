@@ -107,6 +107,12 @@ main li {
 	padding-bottom: .35em;
 }
 
+main h1 {
+	border: 4px double #931420;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
 /* the styles for the footer */
 footer p {
 	text-align: center;
